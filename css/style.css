@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 5vw;
+}
+:root{ /*explicacion de variables aca 
+    https://utn.zoom.us/rec/play/-uibrZNrXAqbu9-jzL-6TmiTZWlqOtjhexYetVG--OpnrlfJHrTfnqSR4nrafX1-__3rbdnWEul7JtrX.SuNHjhGlXeAnNs8f?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Futn.zoom.us%2Frec%2Fshare%2FCXKAl0gxzlvqT2S_3y8Aj08O9wMEuKEk59jK6ks_-a_kqA6ciz-w1WP6cA5F4lm2.oOLLqOhGCN4rpizR
+    */
+    --color-principal:#FFC727;
+    --color-complementario: #FFB412;
+    --color-secundario:#DFEAFF;
+}
+header button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+}
+.logo{
+    position: relative;
+}
+.logo div{
+    display: flex;
+}
+
+.bi-people-fill{
+    font-size: 1.7rem;
+    position: absolute;
+    top:-20px;
+    color:var(--color-principal);
+}
+.bi-bookmark-fill{
+    padding-top: 5px;
+    color:var(--color-complementario);
+}
+.logo div h2{
+    line-height: 28px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.colorPrincipal{
+    color: var(--color-principal);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.hero h1{
+    font-size: 2.2rem;
+}
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 5vh 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.serviceCard{
+    width: 70%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.serviceCard img{
+    width: 100%;
+}
