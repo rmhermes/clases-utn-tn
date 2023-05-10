@@ -10,7 +10,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 2vh 5vw;
+    padding: 5vh 5vw;
 }
 :root{ /*explicacion de variables aca 
     https://utn.zoom.us/rec/play/-uibrZNrXAqbu9-jzL-6TmiTZWlqOtjhexYetVG--OpnrlfJHrTfnqSR4nrafX1-__3rbdnWEul7JtrX.SuNHjhGlXeAnNs8f?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Futn.zoom.us%2Frec%2Fshare%2FCXKAl0gxzlvqT2S_3y8Aj08O9wMEuKEk59jK6ks_-a_kqA6ciz-w1WP6cA5F4lm2.oOLLqOhGCN4rpizR
@@ -55,6 +55,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1.3rem;
 }
 .hero{
     width: 70%;
@@ -87,3 +88,29 @@ main{
 .serviceCard img{
     width: 100%;
 }
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+footer .footerLogo {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+}
+.copyright{
+    font-size: 0.8rem;
+    padding-bottom: 20vh;
+    text-align: center;
+}
+
